@@ -1,0 +1,8 @@
+name: 'Pi Dramble Analytics'
+type: module
+description: 'Analytics integration for Pi Dramble.'
+package: Pi Dramble
+dependencies:
+  - block
+core: '8.x'
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,10 @@
+name: pidramble
+type: theme
+description: 'A simple theme for a simple site.'
+package: Core
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - pidramble/simple-grid
+  - pidramble/global-styling
+base theme: classy

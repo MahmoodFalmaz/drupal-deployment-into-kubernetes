@@ -1,0 +1,27 @@
+uuid: 9870ca71-7f40-47b0-8d65-d66050663676
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pidramble
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: pidramble_page_title
+theme: pidramble
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

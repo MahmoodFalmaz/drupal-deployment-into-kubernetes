@@ -1,0 +1,22 @@
+uuid: 8f2df485-2a57-4082-a7ed-91a8f6806bc8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pidramble
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: pidramble_local_tasks
+theme: pidramble
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

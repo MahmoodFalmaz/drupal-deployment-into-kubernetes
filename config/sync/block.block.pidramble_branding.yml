@@ -1,0 +1,25 @@
+uuid: 2a153a0c-6c8b-45a5-a713-cf56dd51360b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pidramble
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: pidramble_branding
+theme: pidramble
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
