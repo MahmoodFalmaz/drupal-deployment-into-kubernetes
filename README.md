@@ -1,7 +1,5 @@
 # Drupal Deployment into Kubernetes
 
-[![CI](https://github.com/MahmoodFalmaz/drupal-deployment-into-kubernetes/workflows/CI/badge.svg?event=push)](https://github.com/MahmoodFalmaz/drupal-deployment-into-kubernetes/actions?query=workflow%3ACI)
-
 The purpose of this Drupal codebase is to demonstrate a Drupal project and configuration set up for deployment into Kubernetes.
 
 ## Documentation
